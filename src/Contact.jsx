@@ -29,6 +29,10 @@ const Contact = () => {
     } else {
       alert(`Please fill all the details or else get out from here!😡`);
     }
+
+    if ("ok") {
+      window.location.href("/about");
+    }
   };
   return (
     <>
@@ -38,9 +42,9 @@ const Contact = () => {
       <div className="container contact_div">
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
-            <form onSubmit={submitForm}>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+            <form action="/" method="get" onSubmit={submitForm}>
+              <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">
                   UserName
                   <Tooltip title="mandatory">
                     <span style={{ color: "red", cursor: "pointer" }}> *</span>
@@ -48,7 +52,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="username"
                   value={data.username}
@@ -56,8 +60,8 @@ const Contact = () => {
                   placeholder="Enter Valid UserName"
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">
                   Email address
                   <Tooltip title="mandatory">
                     <span style={{ color: "red", cursor: "pointer" }}> *</span>
@@ -65,7 +69,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="email"
                   value={data.email}
@@ -73,8 +77,8 @@ const Contact = () => {
                   placeholder="name@example.com"
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlInput1" className="form-label">
                   Phone
                   <Tooltip title="mandatory">
                     <span style={{ color: "red", cursor: "pointer" }}> *</span>
@@ -82,7 +86,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="number"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlInput1"
                   name="phone"
                   value={data.phone}
@@ -90,12 +94,12 @@ const Contact = () => {
                   placeholder="Enter Your Number"
                 />
               </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">
+              <div className="mb-3">
+                <label for="exampleFormControlTextarea1" className="form-label">
                   Send Me Anything!
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   name="msg"
                   value={data.msg}
@@ -103,8 +107,8 @@ const Contact = () => {
                   rows="3"
                 ></textarea>
               </div>
-              <div class="col-12">
-                <button class="btn_submit" type="submit">
+              <div className="col-12">
+                <button className="btn_submit" type="submit">
                   Submit form
                 </button>
               </div>
