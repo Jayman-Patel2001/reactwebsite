@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a65cdf3c.chunk.css",
+    "main.js": "/static/js/main.2845e848.chunk.js",
+    "main.js.map": "/static/js/main.2845e848.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ab0bfff7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ab0bfff7.js.map",
+    "static/js/2.fbdaecfd.chunk.js": "/static/js/2.fbdaecfd.chunk.js",
+    "static/js/2.fbdaecfd.chunk.js.map": "/static/js/2.fbdaecfd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a65cdf3c.chunk.css.map": "/static/css/main.a65cdf3c.chunk.css.map",
+    "static/js/2.fbdaecfd.chunk.js.LICENSE.txt": "/static/js/2.fbdaecfd.chunk.js.LICENSE.txt",
+    "static/media/about1.48a8617e.svg": "/static/media/about1.48a8617e.svg",
+    "static/media/afm.014b6ca3.png": "/static/media/afm.014b6ca3.png",
+    "static/media/app.d491b82e.jpg": "/static/media/app.d491b82e.jpg",
+    "static/media/ml.257fa573.jpg": "/static/media/ml.257fa573.jpg",
+    "static/media/rocket.4715ac4b.svg": "/static/media/rocket.4715ac4b.svg",
+    "static/media/software.aeecc6ac.jpeg": "/static/media/software.aeecc6ac.jpeg",
+    "static/media/stock.45e4326d.jpg": "/static/media/stock.45e4326d.jpg",
+    "static/media/web.160f7f32.jpg": "/static/media/web.160f7f32.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab0bfff7.js",
+    "static/js/2.fbdaecfd.chunk.js",
+    "static/css/main.a65cdf3c.chunk.css",
+    "static/js/main.2845e848.chunk.js"
+  ]
+}
