@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+*::-moz-selection {
+  color: white;
+  background-color: #3498db;
+}
+
+*::selection {
+  color: white;
+  background-color: #3498db;
+}
+
+.active_class {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid #565387;
+}
+
+.icon {
+  margin: 0.5rem;
+  text-transform: capitalize;
+  font-size: 1rem !important;
+}
+
+.nav_head {
+  color: #565387 !important;
+  font-weight: bold;
+  font-size: 1.5rem !important;
+}
+
+.icon:hover {
+  color: #3498db !important;
+}
+
+@media (max-width: 998px) {
+  .nav_head {
+    font-size: 1.5rem !important;
+  }
+  .active_class {
+    font-weight: bold;
+    border-bottom: none !important;
+  }
+}
+
+.header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+.header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+}
+
+.header h1 .brand_name {
+  color: #3498db;
+}
+
+.header h2 {
+  color: #484848;
+  font-size: 20px;
+}
+
+.header .btn_get_started {
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+.header .btn_get_started:hover {
+  color: white;
+  background-color: #3498db;
+}
+
+.header_img {
+  text-align: right;
+}
+
+.header .animated_img {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+}
+
+.card_div .card img {
+  height: 270px;
+}
+
+.card-body h5 {
+  font-weight: bold;
+}
+
+.btn_card {
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+.btn_card:hover {
+  color: white;
+  background-color: #3498db;
+}
+
+.contact_div {
+  width: 100vw;
+  height: 75vh;
+}
+
+.btn_submit {
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  color: #3498db;
+  border: 2px solid #3498db;
+  background-color: white;
+  text-decoration: none;
+}
+
+.btn_submit:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.term {
+  text-decoration: none;
+  color: black;
+}
+
+.footer_active {
+  color: #3498db;
+  font-weight: bold;
+}
+
+.term_page {
+  width: 100vw;
+  height: 73vh;
+  overflow: hidden;
+}
+
+.term_page h3 {
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+@media (max-width: 998px) {
+  .header {
+    height: 80vh;
+    text-align: center;
+  }
+  .header .header_img img {
+    text-align: center;
+  }
+  .header .header_img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-top: 0px;
+  }
+  .header h1 {
+    font-size: 33px;
+  }
+  .header h2 {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+  .header .header_img {
+    margin-bottom: 50px;
+  }
+  .header .header_img img {
+    width: 90%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer {
+    margin-top: 55px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=website.css.map */
