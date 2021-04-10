@@ -24,14 +24,11 @@ const Contact = () => {
     if (data.username && data.email && data.phone) {
       e.preventDefault();
       alert(
-        `Your data has been send to the owner and get ready to pay for it 😈`
+        `Dear ${data.username}. Your email address "${data.email}" and number "${data.phone}" has been send to the owner. Get ready to pay for it😈`
       );
-    } else {
+    } 
+    else {
       alert(`Please fill all the details or else get out from here!😡`);
-    }
-
-    if ("ok") {
-      window.location.href("/about");
     }
   };
   return (
@@ -42,7 +39,7 @@ const Contact = () => {
       <div className="container contact_div">
         <div className="row">
           <div className="col-md-6 col-10 mx-auto">
-            <form action="/" method="get" onSubmit={submitForm}>
+            <form action="/reactwebsite" method="get" onSubmit={submitForm}>
               <div className="mb-3">
                 <label for="exampleFormControlInput1" className="form-label">
                   UserName

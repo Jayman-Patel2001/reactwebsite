@@ -7,7 +7,15 @@ const Footer = () => {
     <>
       <footer className="w-100 text-center">
         <p>
-          © {getYear} Jayman Patel. All Rights Reserved |<NavLink exact activeClassName="footer_active" to="/termpage" className="term"> Terms and Conditions</NavLink>
+          © {getYear} Jayman Patel. All Rights Reserved |
+          <NavLink
+            exact
+            activeClassName="footer_active"
+            to="/reactwebsite/termpage"
+            className="term"
+          >
+            Terms and Conditions
+          </NavLink>
         </p>
       </footer>
     </>

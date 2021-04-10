@@ -8,7 +8,7 @@ const Home = () => {
       <Common
         name="Team of Developers with"
         para="We help others to design beautiful and responsive websites"
-        visit="/contact"
+        visit="/reactwebsite/contact"
         btnname="Contact Now"
         imgSrc={img}
       />

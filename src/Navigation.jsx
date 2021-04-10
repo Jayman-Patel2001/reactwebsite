@@ -9,7 +9,7 @@ const Navigation = () => {
           <div className="col-md-10 col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
-                <NavLink className="navbar-brand nav_head" to="/">
+                <NavLink className="navbar-brand nav_head" to="/reactwebsite">
                   Jayman Patel
                 </NavLink>
                 <button
@@ -34,7 +34,7 @@ const Navigation = () => {
                         className="nav-link icon"
                         activeClassName="active_class"
                         aria-current="page"
-                        to="/"
+                        to="/reactwebsite"
                       >
                         Home
                       </NavLink>
@@ -44,7 +44,7 @@ const Navigation = () => {
                         exact
                         className="nav-link icon"
                         activeClassName="active_class"
-                        to="/about"
+                        to="/reactwebsite/about"
                       >
                         About
                       </NavLink>
@@ -54,7 +54,7 @@ const Navigation = () => {
                         exact
                         className="nav-link icon"
                         activeClassName="active_class"
-                        to="/service"
+                        to="/reactwebsite/service"
                       >
                         Service
                       </NavLink>
@@ -64,7 +64,7 @@ const Navigation = () => {
                         exact
                         className="nav-link icon"
                         activeClassName="active_class"
-                        to="/contact"
+                        to="/reactwebsite/contact"
                       >
                         Contact
                       </NavLink>

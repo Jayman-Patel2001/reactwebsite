@@ -8,7 +8,7 @@ const Home = () => {
       <Common
         name="Grow your business with"
         para="We are the team of talented developer making websites"
-        visit="/service"
+        visit="/reactwebsite/service"
         btnname="Get Started"
         imgSrc={img}
       />
